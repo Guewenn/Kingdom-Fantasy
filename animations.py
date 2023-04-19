@@ -19,10 +19,25 @@ class PlayerAnimations:
             ],
             "walkf": [
                 pygame.image.load("./resources/animations/player/walk/walkf0.png"),
-                pygame.image.load("./resources/animations/player/walk/walkf1.png")
+                pygame.image.load("./resources/animations/player/walk/walkf1.png"),
                 pygame.image.load("./resources/animations/player/walk/walkf2.png")
-            ],    
-        }
+            ],   
+            "walkb": [
+                pygame.image.load("./resources/animations/player/walk/walkb0.png"),
+                pygame.image.load("./resources/animations/player/walk/walkb1.png"),
+                pygame.image.load("./resources/animations/player/walk/walkb2.png")
+            ],
+            "walkl": [
+                pygame.image.load("./resources/animations/player/walk/walkl0.png"),
+                pygame.image.load("./resources/animations/player/walk/walkl1.png"),
+                pygame.image.load("./resources/animations/player/walk/walkl2.png")
+            ],
+            "walkr": [
+                pygame.image.load("./resources/animations/player/walk/walkr0.png"),
+                pygame.image.load("./resources/animations/player/walk/walkr1.png"),
+                pygame.image.load("./resources/animations/player/walk/walkr2.png")
+            ], 
+        }  
         self.STATUS = {
             "idle": 0,
             "walkf": 1,
